@@ -1,12 +1,12 @@
-package br.senac.tads.dsw.exemplo4.controller;
+package br.senac.sp.tads.dsw.exemplo5.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import br.senac.tads.dsw.exemplo4.model.Departamento;
-import br.senac.tads.dsw.exemplo4.repository.DepartamentoRepository;
+import br.senac.sp.tads.dsw.exemplo5.model.Departamento;
+import br.senac.sp.tads.dsw.exemplo5.repository.DepartamentoRepository;
 import jakarta.validation.Valid;
 
 import java.util.List;
